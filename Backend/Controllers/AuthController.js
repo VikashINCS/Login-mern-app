@@ -2,9 +2,9 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const UserModel = require("../Models/user");
 
-// const express = require("express");
-// const cors = require("cors");
-// const app = express();
+const express = require("express");
+const cors = require("cors");
+ const app = express();
 
 app.use(
   cors({
